@@ -1,74 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-br" class="">
-<head>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevLinks</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img src="./assets/avatar.png" alt="Foto de Guilherme." />
+        <p>@vitorin0o</p>
+      </div>
 
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DevLinks</title>
-  <link rel="stylesheet" href="./style.css" />
-</head>
-<body>
-  
-  <div id="container">
-    <div id="profile">
-      <img src="./assets/avatar.png" alt="Foto de Guilherme."/>
-      <p>@vitorin0o</p>
-    </div>
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span> </span>
+      </div>
 
-    <div id="switch" onclick="toggleMode()">
-      <button>
-      </button>
-      <span>
+      <ul>
+        <li>
+          <a href="https://www.rocketseat.com.br/"
+           target="_blank"
+            >Rocketseat</a
+          >
+        </li>
+        <li>
+          <a href="mailto:gvs.vitorino@gmail.com" target="_blank"
+            >E-mail para contato</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/vitorin0o/DevLinks" target="_blank"
+            >Confira o projeto</a
+          >
+        </li>
+        <li>
+          <a href="https://rocketseat.com.br/explorer" target="_blank"
+            >Conheça o Explorer</a
+          >
+        </li>
+      </ul>
+      <div id="social-links">
+        <a href="https://github.com/vitorin0o" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com/vitorin0o/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/guilhermevitorinos"
+          target="_blank"
+        >
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
 
-      </span>
-    </div>
-
-    <ul>
-      <li>
-        <a href="#">Inscrever-se no NLW</a>
-      </li>
-      <li>
-        <a href="#">Baixar meu e-book</a>
-      </li>
-      <li>
-        <a href="https://github.com/vitorin0o"
+      <footer>
+        Feito por
+        <a href="https://linkedin.com/in/guilhermeVitorinoS"
         target="_blank"
-        >Veja meu portifólio</a>
-      </li>
-      <li>
-        <a href="https://rocketseat.com.br/explorer"
-        target="_blank"
-        >Conheça o Explorer</a>
-      </li>
-    </ul>
-    <div id="social-links">
-      <a href="https://github.com/vitorin0o" target="_blank">
-        <ion-icon name="logo-github"></ion-icon>
-      </a>
-      <a href="https://instagram.com/vitorin0o" target="_blank">
-        <ion-icon name="logo-instagram"></ion-icon>
-      </a>
-      <a href="https://youtube.com/Quindinho" target="_blank">
-        <ion-icon name="logo-youtube"></ion-icon>
-      </a>
-      <a href="https://linkedin.com/in/guilhermevitorinos" target="_blank">
-        <ion-icon name="logo-linkedin"></ion-icon>
-      </a>
-
+        >Guilherme</a>
+      </footer>
     </div>
 
-    <footer>
-      Feito por <a href="https://linkedin.com/in/guilhermeVitorinoS">Guilherme</a>
-    </footer>
-    </div>
-
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
 
     <script src="./script.js"></script>
